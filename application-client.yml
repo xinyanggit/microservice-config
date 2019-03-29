@@ -15,7 +15,7 @@ eureka:
       defaultZone: http://eureka9003.com:9003/eureka/,http://eureka9002.com:9002/eureka/,http://eureka9001.com:9001/eureka/
 
 server:
-  port: 9899
+  port: 8898
 
 ---
 spring:
@@ -29,4 +29,4 @@ eureka:
     service-url:
       defaultZone: http://eureka9003.com:9003/eureka/,http://eureka9002.com:9002/eureka/,http://eureka9001.com:9001/eureka/
 server:
-  port: 9890
+  port: 8899
